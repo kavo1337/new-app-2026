@@ -94,7 +94,7 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <Border Grid.Column="0" Background="#F3F3F3">
+        <Border Grid.Column="0" Background="#1D2127">
             <DockPanel Margin="8">
                 <Button Content="Menu" Click="ToggleSidebar_Click" Height="32" DockPanel.Dock="Top"/>
 
@@ -125,7 +125,7 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <Border BorderBrush="#E0E0E0" BorderThickness="0,0,0,1" Padding="16">
+            <Border BorderBrush="#E0E0E0" Background="#171717" BorderThickness="0,0,0,1" Padding="16">
                 <DockPanel>
                     <TextBlock Text="Главная" FontSize="20" FontWeight="Bold" DockPanel.Dock="Left"/>
 

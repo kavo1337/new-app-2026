@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\clost\\OneDrive\\Документы\\C#\\now-app-2026\\app.CLIENT\\app.CLIENT.csproj": {}
+    "C:\\Users\\clost\\OneDrive\\Документы\\C#\\now-app-2026\\new-app-2026\\app.CLIENT\\app.CLIENT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\clost\\OneDrive\\Документы\\C#\\now-app-2026\\app.CLIENT\\app.CLIENT.csproj": {
+    "C:\\Users\\clost\\OneDrive\\Документы\\C#\\now-app-2026\\new-app-2026\\app.CLIENT\\app.CLIENT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\clost\\OneDrive\\Документы\\C#\\now-app-2026\\app.CLIENT\\app.CLIENT.csproj",
+        "projectUniqueName": "C:\\Users\\clost\\OneDrive\\Документы\\C#\\now-app-2026\\new-app-2026\\app.CLIENT\\app.CLIENT.csproj",
         "projectName": "app.CLIENT",
-        "projectPath": "C:\\Users\\clost\\OneDrive\\Документы\\C#\\now-app-2026\\app.CLIENT\\app.CLIENT.csproj",
+        "projectPath": "C:\\Users\\clost\\OneDrive\\Документы\\C#\\now-app-2026\\new-app-2026\\app.CLIENT\\app.CLIENT.csproj",
         "packagesPath": "C:\\Users\\clost\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\clost\\OneDrive\\Документы\\C#\\now-app-2026\\app.CLIENT\\obj\\",
+        "outputPath": "C:\\Users\\clost\\OneDrive\\Документы\\C#\\now-app-2026\\new-app-2026\\app.CLIENT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
