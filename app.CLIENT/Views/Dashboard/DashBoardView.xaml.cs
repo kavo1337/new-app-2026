@@ -342,30 +342,3 @@ namespace app.CLIENT.Views.Dashboard
     }
 
 }
-
-public sealed class TileTemplateSelector : DataTemplateSelector
-{
-    public DataTemplate? EfficiencyTemplate { get; set; }
-    public DataTemplate? NetworkStateTemplate { get; set; }
-    public DataTemplate? SummaryTemplate { get; set; }
-    public DataTemplate? SalesTemplate { get; set; }
-    public DataTemplate? NewsTemplate { get; set; }
-
-    public override DataTemplate SelectTemplate(object item, DependencyObject container)
-    {
-        if (item is not DashboardTile tile)
-        {
-            return base.SelectTemplate(item, container);
-        }
-
-        return tile.Key switch
-        {
-            "Efficiency" => EfficiencyTemplate,
-            "Network" => NetworkStateTemplate,
-            "Summary" => SummaryTemplate,
-            "Sales" => SalesTemplate,
-            "News" => NewsTemplate,
-            _ => base.SelectTemplate(item, container)
-        } ?? base.SelectTemplate(item, container);
-    }
-}
