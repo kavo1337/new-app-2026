@@ -38,16 +38,16 @@ namespace app.CLIENT.Views.Dashboard
             {
                 Key = "Efficiency",
                 Title = "Эффективность сети",
-                EfficiencyPercent = 78
+                EfficiencyPercent = 89
             };
 
             var network = new DashboardTile
             {
                 Key = "Network",
                 Title = "Состояние сети",
-                WorkingNum = 120,
+                WorkingNum = 56,
                 OfflineNum = 12,
-                ServiceCount = 8,
+                ServiceCount = 2,
                 SelectedStatusText = "Выберите статус"
             };
 
@@ -55,8 +55,8 @@ namespace app.CLIENT.Views.Dashboard
             {
                 Key = "Summary",
                 Title = "Сводка",
-                SalesNum = 125000,
-                CashNum = 43200,
+                SalesNum = 15876,
+                CashNum = 1789,
                 MaintenanceNum = 9
             };
 
@@ -73,7 +73,7 @@ namespace app.CLIENT.Views.Dashboard
             };
 
             news.NewsItems.Add("Обновлен регламент обслуживания.");
-            news.NewsItems.Add("Запущены новые точки в бизнес-центре.");
+            news.NewsItems.Add("Запущены новые.");
             news.NewsItems.Add("Плановые проверки на этой неделе.");
 
             Tiles.Add(efficiency);
@@ -98,8 +98,8 @@ namespace app.CLIENT.Views.Dashboard
                 _salesPoints.Add(new SalesPoint
                 {
                     Day = day.ToString("dd.MM"),
-                    Sum = rand.Next(8000, 22000),
-                    Count = rand.Next(40, 120)
+                    Sum = rand.Next(10000, 30000),
+                    Count = rand.Next(78, 120)
                 });
             }
         }
